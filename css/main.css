@@ -1,0 +1,41 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Banana provisional web
+Version:	2.0
+Autor: Fedegilles
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+
+
+[My kind of contents]
+[CSS styles in its order of appearance]
+[To search for a specific css style search in its order of appearance in the HTML file]
+
+1.container
+2.grid
+
+-------------------------------------------------------------------*/
+
+body {
+	margin: 0;
+	background-color: #fff;
+}
+
+div div div {
+	background-color: #ccc;
+	padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px;
+}
+.span-col-6{grid-column: span 6 / auto;}
+
+.span-col-2{grid-column: span 2 / auto;}
+
+.span-col-3{grid-column: span 3 / auto;}
