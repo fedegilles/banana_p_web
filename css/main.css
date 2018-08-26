@@ -10,12 +10,16 @@ Autor: Fedegilles
 /*------------------------------------------------------------------
 
 
-[My kind of contents]
+[Contents]
 [CSS styles in its order of appearance]
 [To search for a specific css style search in its order of appearance in the HTML file]
 
 1.container
 2.grid
+3.grid media queries
+4.header
+5.bbox
+6.skills
 
 -------------------------------------------------------------------*/
 
@@ -24,18 +28,74 @@ body {
 	background-color: #fff;
 }
 
+/*----- container -----*/
+
 div div div {
-	background-color: #ccc;
 	padding: 20px;
+	border-color: #ccc;
 }
+
+/*----- grid -----*/
 
 .grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 5px;
+    grid-gap: 0;
 }
 .span-col-6{grid-column: span 6 / auto;}
 
 .span-col-2{grid-column: span 2 / auto;}
 
 .span-col-3{grid-column: span 3 / auto;}
+
+/*----- grid media queries -----*/
+
+/*----- header -----*/
+
+.header {
+	height: 500px;
+	background-image: url("../img/head.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+}
+
+.header h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 60px;
+	color: #fff;
+}
+
+.header h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+	color: #fff;
+}
+
+/*----- bbox -----*/
+
+.bbox {
+	background-color: #2D2D2B;
+}
+
+.bbox h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #fff;
+}
+
+/*----- skills -----*/
+
+.skills p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.4;
+	color: #2D2D2B;
+}
+
+/*----- gbox -----*/
