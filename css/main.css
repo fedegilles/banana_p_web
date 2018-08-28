@@ -99,3 +99,56 @@ div div div {
 }
 
 /*----- gbox -----*/
+
+.gbox {
+	background-color: #D6D6D6;
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.brands {
+	height: 70px;
+	width: 300px;
+	margin: 10px 0 10px 0;
+	background-color: #ccc;
+}
+
+/*----- profiles -----*/
+
+.profiles {
+	margin: auto;
+}
+
+.profile {
+	height: 250px;
+	width: 250px;
+	background-color: #ccc;
+}
+
+/*----- prefoot -----*/
+
+.prefoot {
+	background-color: #2D2D2B;
+	height: 70px;
+}
+
+/*----- footer -----*/
+
+.footer {
+	background-color: #FFC22E;
+	height: 20px;
+}
+
+.footer div {
+	padding: 0 20px 0 20px;
+}
+
+.footer p {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #2D2D2B;
+}
