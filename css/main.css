@@ -20,6 +20,8 @@ Autor: Fedegilles
 4.header
 5.bbox
 6.skills
+7.gbox
+8.staff
 
 -------------------------------------------------------------------*/
 
@@ -117,7 +119,7 @@ div div div {
 
 /*----- profiles -----*/
 
-.profiles {
+.staff {
 	margin: auto;
 }
 
@@ -125,6 +127,48 @@ div div div {
 	height: 250px;
 	width: 250px;
 	background-color: #ccc;
+}
+
+/*----- WWU -----*/
+
+.wwu {
+	background-color: #F9F9F9;
+}
+
+.wwu h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 50px;
+	color: #2D2D2B;
+}
+
+.wwu p {
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #666666;
+	padding: 0 100px 0 10px;
+}
+
+/*----- contacto -----*/
+
+.contacto {
+	background-color: #F9F9F9;
+}
+
+form {
+	width: 80%;
+	background-color: #FFC22E;
+	margin: auto;
+}
+
+.contacto table {
+	background-color: #ccc;
+}
+
+.contacto {
+
 }
 
 /*----- prefoot -----*/
