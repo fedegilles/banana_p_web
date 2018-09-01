@@ -107,32 +107,56 @@ main p {
 	grid-area: section2;
 	background-color: #D6D6D6;
 	height: auto;
-	padding: 50px 30px 50px 30px;
+	padding: 100px 30px 100px 30px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 50px;
+	grid-gap: 100px;
 }
 
 #brands div {
 	background-color: #ccc;
-	
+	height: 50px;
 }
 
+#brands div img {
+	width: 100%;
+}
 
 /*-----  -----*/
 
 #bbox1 {
 	grid-area: section3;
-	background-color: #3F3F3E;
-	height: 100px;	
+	background-color: #2D2D2B;
+	padding: 30px 0 30px 30px;
+}
+
+#bbox1 h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #fff;
 }
 
 /*-----  -----*/
 
 #staff {
 	grid-area: section4;
-	background-color: #4C4C4B;
-	height: 100px;	
+	height: auto;
+	padding: 100px 30px 100px 30px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 100px;
+}
+
+#staff div {
+	margin: auto;
+}
+
+#staff div img {
+	height: 300px;
+	width: 300px;
+	background-color: #ccc;
+
 }
 
 /*-----  -----*/
