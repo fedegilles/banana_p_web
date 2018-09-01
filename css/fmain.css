@@ -73,7 +73,7 @@ header h2 {
 #bbox {
 	grid-area: section1;
 	background-color: #2D2D2B;
-	padding: 30px 0 30px 30px;
+	padding: 50px 0 50px 30px;
 }
 
 #bbox h3 {
@@ -90,7 +90,11 @@ main {
 	padding: 50px 0 50px 30px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-    grid-gap: 100px;
+    grid-gap: 50px;
+}
+
+.span-col-3 {
+	grid-column: span 3 / auto;
 }
 
 main h2 {
@@ -115,15 +119,23 @@ main p {
 	grid-area: section2;
 	background-color: #D6D6D6;
 	height: auto;
-	padding: 100px 30px 100px 30px;
+	padding: 150px 30px 150px 30px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 100px;
+	grid-gap: 50px;
+}
+
+#brands h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+	line-height: 1.4;
+	color: #2D2D2B;
 }
 
 #brands div {
+	height: 100px;
 	background-color: #ccc;
-	height: 50px;
 }
 
 #brands div img {
@@ -135,7 +147,7 @@ main p {
 #bbox1 {
 	grid-area: section3;
 	background-color: #2D2D2B;
-	padding: 30px 0 30px 30px;
+	padding: 50px 0 50px 30px;
 }
 
 #bbox1 h3 {
@@ -153,7 +165,7 @@ main p {
 	padding: 100px 30px 100px 30px;
 	display: grid;
 	grid-template-columns: auto auto auto;
-	grid-gap: 100px;
+	grid-gap: 50px;
 }
 
 #staff div {
@@ -168,17 +180,17 @@ main p {
 
 #staff div p {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 18px;
 	text-align: center;
-	color: #ccc;
+	color: #c7c7c9;
 	line-height: 1.4;
 }
 
 .names {
 	font-family: 'Roboto', sans-serif;
 	font-size: 25px;
-	font-weight: 100;
+	font-weight: 300;
 	color: #000;
 }
 
