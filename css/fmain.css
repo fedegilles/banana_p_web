@@ -1,0 +1,97 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Banana provisional web
+Version:	2.0
+Autor: Fedegilles
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+
+
+[Contents]
+[CSS styles in its order of appearance]
+[To search for a specific css style search in its order of appearance in the HTML file]
+
+-------------------------------------------------------------------*/
+
+
+body {
+	margin: 0;
+	display: grid;
+	grid-template-columns: 17% 17% 16% 16% 17% 17%;
+	grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+	grid-template-areas: 
+	"nav nav nav nav nav nav"
+	"header header header header header header"
+	"section1 section1 section1 section1 section1 section1"
+	"main main main main main main"
+	"section2 section2 section2 section2 section2 section2"
+	"section3 section3 section3 section3 section3 section3"
+	"section4 section4 section4 section4 section4 section4"
+	"section5 section5 section5 section5 section5 section5"
+	"section6 section6 section6 section6 section6 section6"
+	"footer footer footer footer footer footer";
+}
+
+/*-----  -----*/
+
+nav	{
+	grid-area: nav;
+	height: 0px;
+}
+
+header {
+	grid-area: header;
+	background-color: #ccc;
+	height: 100px;
+}
+
+#bbox {
+	grid-area: section1;
+	background-color: #0C0C0C;
+	height: 100px;	
+}
+
+main {
+	grid-area: main;
+	background-color: #2D2D2B;
+	height: 100px;	
+}
+
+#gbox {
+	grid-area: section2;
+	background-color: #333331;
+	height: 100px;	
+}
+
+#bbox1 {
+	grid-area: section3;
+	background-color: #3F3F3E;
+	height: 100px;	
+}
+
+#staff {
+	grid-area: section4;
+	background-color: #4C4C4B;
+	height: 100px;	
+}
+
+#form {
+	grid-area: section5;
+	background-color: #515150;
+	height: 100px;	
+}
+
+#pfooter {
+	grid-area: section6;
+	background-color: #636363;
+	height: 100px;	
+}
+
+footer {
+	grid-area: footer;
+	background-color: #FFC22E;
+	height: 100px;	
+}
