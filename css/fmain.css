@@ -41,30 +41,64 @@ nav	{
 	grid-area: nav;
 	height: 0px;
 }
-
+/*----- -----*/
 header {
 	grid-area: header;
 	background-color: #ccc;
-	height: 100px;
+	height: 700px;
+	padding-left: 30px;
+	background-image: url("../img/head.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
 }
+
+header h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 60px;
+	color: #fff;
+}
+
+header h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+	color: #fff;
+}
+
+/*-----  -----*/
 
 #bbox {
 	grid-area: section1;
-	background-color: #0C0C0C;
-	height: 100px;	
+	background-color: #2D2D2B;
+	padding: 30px 0 30px 30px;
 }
+
+#bbox h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #fff;
+}
+/*-----  -----*/
 
 main {
 	grid-area: main;
-	background-color: #2D2D2B;
+	background-color: #0c0c0c;
 	height: 100px;	
 }
+
+/*-----  -----*/
 
 #gbox {
 	grid-area: section2;
 	background-color: #333331;
 	height: 100px;	
 }
+
+/*-----  -----*/
 
 #bbox1 {
 	grid-area: section3;
