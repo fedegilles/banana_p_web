@@ -20,19 +20,19 @@ Autor: Fedegilles
 body {
 	margin: 0;
 	display: grid;
-	grid-template-columns: 17% 17% 16% 16% 17% 17%;
+	grid-template-columns: 100%;
 	grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
 	grid-template-areas: 
-	"nav nav nav nav nav nav"
-	"header header header header header header"
-	"section1 section1 section1 section1 section1 section1"
-	"main main main main main main"
-	"section2 section2 section2 section2 section2 section2"
-	"section3 section3 section3 section3 section3 section3"
-	"section4 section4 section4 section4 section4 section4"
-	"section5 section5 section5 section5 section5 section5"
-	"section6 section6 section6 section6 section6 section6"
-	"footer footer footer footer footer footer";
+	"nav"
+	"header"
+	"section1"
+	"main"
+	"section2"
+	"section3"
+	"section4"
+	"section5"
+	"section6"
+	"footer";
 }
 
 /*-----  -----*/
@@ -103,11 +103,21 @@ main p {
 
 /*-----  -----*/
 
-#gbox {
+#brands {
 	grid-area: section2;
-	background-color: #333331;
-	height: 100px;	
+	background-color: #D6D6D6;
+	height: auto;
+	padding: 50px 30px 50px 30px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
 }
+
+#brands div {
+	background-color: #ccc;
+	
+}
+
 
 /*-----  -----*/
 
@@ -117,11 +127,15 @@ main p {
 	height: 100px;	
 }
 
+/*-----  -----*/
+
 #staff {
 	grid-area: section4;
 	background-color: #4C4C4B;
 	height: 100px;	
 }
+
+/*-----  -----*/
 
 #form {
 	grid-area: section5;
@@ -129,11 +143,15 @@ main p {
 	height: 100px;	
 }
 
+/*-----  -----*/
+
 #pfooter {
 	grid-area: section6;
 	background-color: #636363;
 	height: 100px;	
 }
+
+/*-----  -----*/
 
 footer {
 	grid-area: footer;
