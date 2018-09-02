@@ -20,19 +20,19 @@ Autor: Fedegilles
 body {
 	margin: 0;
 	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+	grid-template-columns: repeat (auto, 6);
+	grid-template-rows: repeat (auto, 10);
 	grid-template-areas: 
-	"nav"
-	"header"
-	"section1"
-	"main"
-	"section2"
-	"section3"
-	"section4"
-	"section5"
-	"section6"
-	"footer";
+	"nav nav nav nav nav nav"
+	"header header header header header header"
+	"section1 section1 section1 section1 section1 section1"
+	"main main main main main main"
+	"section2 section2 section2 section2 section2 section2"
+	"section3 section3 section3 section3 section3 section3"
+	"section4 section4 section4 section4 section4 section4"
+	"section5 section5 section5 section5 section5 section5"
+	"section6 section6 section6 section6 section6 section6"
+	"footer footer footer footer footer footer";
 }
 
 /*-----  -----*/
@@ -87,7 +87,7 @@ header h2 {
 main {
 	grid-area: main;
 	height: auto;
-	padding: 50px 0 50px 30px;
+	padding: 50px 30px 50px 30px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
@@ -147,7 +147,7 @@ main p {
 #bbox1 {
 	grid-area: section3;
 	background-color: #2D2D2B;
-	padding: 50px 0 50px 30px;
+	padding: 50px 30px 50px 30px;
 }
 
 #bbox1 h3 {
@@ -164,7 +164,7 @@ main p {
 	height: auto;
 	padding: 100px 30px 100px 30px;
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 50px;
 }
 
@@ -198,8 +198,69 @@ main p {
 
 #form {
 	grid-area: section5;
-	background-color: #515150;
-	height: 100px;	
+	background-color: #F9F9F9;
+	height: auto;
+	padding: 100px 30px 100px 30px;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 50px;
+}
+
+#form h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+	color: #2D2D2B;
+}
+
+#form p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #666666;
+	padding: 0 100px 0 10px;
+}
+
+form {
+	width: 80%;
+	height: 600px;
+	background-color: #FFC22E;
+	margin: auto;
+}
+
+form table {
+	width: 100%;
+	height: 100%;
+	padding: 30px;
+}
+
+form label {
+	font-family: 'Maven+Pro', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	color: #000;
+}
+
+form input {
+	width: 100%;
+	height: 40px;
+	border: 0;
+}
+
+form textarea {
+	width: 100%;
+	height: 40px;
+	resize: none;
+	border: 0;
+}
+
+form button {
+	width: 100px;
+	height: 50px;
+	background-color: #fff;
+	border: 0;
+	margin-top: 10px;
+	float: right;
 }
 
 /*-----  -----*/
