@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Project:	Banana provisional web
+Project:	Banana Paradox provisional web
 Version:	2.0
 Autor: Fedegilles
 
@@ -45,7 +45,7 @@ nav	{
 header {
 	grid-area: header;
 	background-color: #ccc;
-	height: 700px;
+	height: 80vh;
 	padding-left: 30px;
 	background-image: url("../img/head.jpg");
 	background-size: cover;
@@ -58,6 +58,12 @@ header {
 	header {
 	background-attachment: inherit;
 }
+}
+
+@media (min-width:2000px) {
+	header {
+		padding-left: 20vw;
+	}
 }
 
 header h1 {
@@ -80,6 +86,13 @@ header h2 {
 	grid-area: section1;
 	background-color: #2D2D2B;
 	padding: 50px 0 50px 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+@media (min-width:2000px) {
+	#bbox {
+		padding-left: 20vw;
+	}
 }
 
 #bbox h3 {
@@ -88,6 +101,7 @@ header h2 {
 	font-size: 20px;
 	color: #fff;
 }
+
 /*-----  -----*/
 
 main {
@@ -97,6 +111,12 @@ main {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
+}
+
+@media (min-width:2000px) {
+	main {
+		padding: 50px 20vw 50px 20vw;
+	}
 }
 
 .span-col-3 {
@@ -131,6 +151,12 @@ main p {
 	grid-gap: 50px;
 }
 
+@media (min-width:2000px) {
+	#brands {
+		padding: 50px 20vw 50px 20vw;
+	}
+}
+
 #brands h2 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
@@ -154,6 +180,13 @@ main p {
 	grid-area: section3;
 	background-color: #2D2D2B;
 	padding: 50px 30px 50px 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+@media (min-width:2000px) {
+	#bbox1 {
+		padding: 50px 20vw 50px 20vw;
+	}
 }
 
 #bbox1 h3 {
@@ -172,6 +205,12 @@ main p {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 50px;
+}
+
+@media (min-width:2000px) {
+	#staff {
+		padding: 50px 20vw 50px 20vw;
+	}
 }
 
 #staff div {
@@ -232,6 +271,12 @@ main p {
 	grid-template-columns: 100%;
 	grid-gap: 50px;
 }
+}
+
+@media (min-width:2000px) {
+	#form {
+		padding: 100px 25vw 100px 25vw;
+	}
 }
 
 #form h2 {
@@ -334,6 +379,12 @@ form button {
 }
 }
 
+@media (min-width:2000px) {
+	#pfooter {
+		padding: 50px 25vw 50px 25vw;
+	}
+}
+
 .span-col-5 {
 	grid-column: span 5 / auto;
 }
@@ -384,6 +435,12 @@ footer {
 	footer {
 		padding: 20px 100px 20px 100px;
 }
+}
+
+@media (min-width:2000px) {
+	footer {
+		padding-left: 25vw;
+	}
 }
 
 footer p {
