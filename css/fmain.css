@@ -86,7 +86,7 @@ header h2 {
 	grid-area: section1;
 	background-color: #2D2D2B;
 	padding: 50px 0 50px 30px;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 10px 10px rgba(0,0,0,0.03), 0 5px 8px rgba(0,0,0,0.23);
 }
 
 @media (min-width:2000px) {
@@ -180,7 +180,7 @@ main p {
 	grid-area: section3;
 	background-color: #2D2D2B;
 	padding: 50px 30px 50px 30px;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 10px 10px rgba(0,0,0,0.03), 0 5px 8px rgba(0,0,0,0.23);
 }
 
 @media (min-width:2000px) {
@@ -304,6 +304,7 @@ form {
 	width: 70%;
 	height: 600px;
 	background-color: #FFC22E;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.05), 0 5px 8px rgba(0,0,0,0.15);
 	margin: auto;
 }
 
@@ -323,7 +324,7 @@ form table {
 form label {
 	font-family: 'Maven+Pro', sans-serif;
 	font-weight: 400;
-	font-size: 25px;
+	font-size: 20px;
 	color: #000;
 }
 
@@ -334,6 +335,11 @@ form input {
 	padding: 0 5px 0 5px;
 	border: 0;
 	font-size: 15px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+form input:hover {
+  box-shadow: 0 10px 10px rgba(0,0,0,0.05), 0 5px 8px rgba(0,0,0,0.15);
 }
 
 form textarea {
@@ -344,6 +350,11 @@ form textarea {
 	resize: none;
 	border: 0;
 	font-size: 15px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+form textarea:hover {
+  box-shadow: 0 10px 10px rgba(0,0,0,0.05), 0 5px 8px rgba(0,0,0,0.15);
 }
 
 form button {
@@ -372,7 +383,7 @@ form button {
 		width: 80%;
 		float: left;
 		height: auto;
-		padding: 10px 40px 10px 100px;
+		padding: 10px 40px 20px 100px;
 		display: grid;
 		grid-template-columns: 100%;
 		grid-gap: 0;
@@ -414,7 +425,6 @@ form button {
 		height: 25px;
 		margin-right: 5px;
 		margin-top: 5px;
-		margin-bottom: 25px;
 }
 }
 
