@@ -69,7 +69,7 @@ header {
 header h1 {
 	font-family: 'Hind', sans-serif;
 	font-weight: 500;
-	font-size: 65px;
+	font-size: 60px;
 	color: #fff;
 	margin: 0;
 }
@@ -264,8 +264,8 @@ main p {
 }
 
 hr {
-	width: 150px;
-	height: 4px;
+	width: 100px;
+	height: 3px;
 	background-color: #FFC22E;
 	border: none;
 	margin: 0;
@@ -299,7 +299,7 @@ hr {
 
 @media (max-width:900px) {
 	#form h2 {
-		padding: 0 100px 0 10px;		
+		padding: 0 100px 0 0;		
 }
 }
 
@@ -308,6 +308,7 @@ hr {
 	font-weight: 400;
 	font-size: 20px;
 	color: #666666;
+	margin: 25px 0 0 0;
 	padding: 0 0 0 0;
 }
 
