@@ -158,21 +158,16 @@ main p {
 	}
 }
 
+#brands img {
+	width: 100%;
+}
+
 #brands h2 {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 300;
 	font-size: 30px;
 	line-height: 1.4;
 	color: #2D2D2B;
-}
-
-#brands div {
-	height: 100px;
-	background-color: #ccc;
-}
-
-#brands div img {
-	width: 100%;
 }
 
 /*-----  -----*/
