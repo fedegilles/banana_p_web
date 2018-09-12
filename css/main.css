@@ -45,7 +45,7 @@ nav	{
 header {
 	grid-area: header;
 	background-color: #ccc;
-	height: 80vh;
+	height: 90vh;
 	padding-left: 30px;
 	background-image: url("../img/head.jpg");
 	background-size: cover;
