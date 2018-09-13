@@ -120,36 +120,36 @@
 			</P>
 		</div>
 		<div class="span-col-3">
-			<form action="index.html">
+			<form action="email.php" method="post" name="contactform">
 				<table>
 					<tbody>
 						<tr>
 		           			<td>
 		           				<label for="nombre">Nombre:</label>
-								<input type="text" name="nombre" value="" required>
+								<input maxlength="50" name="first_name" type="text" required>
 							</td>
 						</tr>
 						<tr>
 		           			<td>
 		           				<label for="nombre">Asunto:</label>
-								<input type="text" name="nombre" value="" required>
+								<input maxlength="50" name="subject" type="text" required>
 							</td>
 						</tr>
 						<tr>
 		           			<td>
 		           				<label for="nombre">Email:</label>
-								<input type="text" name="nombre" value="" required>
+								<input maxlength="50" name="email" type="text" required>
 							</td>
 						</tr>
 						<tr>
 		           			<td>
 		           				<label for="nombre">Mensaje:</label>
-								<textarea name="mensaje" required></textarea>
+								<textarea name="comments" required></textarea>
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<button type="button" value="enviar" id="boton">ENVIAR</button>
+								<button type="submit" value="submit" id="boton">ENVIAR</button>
 							</td>
 						</tr>
 					</tbody>
