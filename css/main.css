@@ -46,7 +46,8 @@ header {
 	grid-area: header;
 	background-color: #ccc;
 	height: 90vh;
-	padding-left: 30px;
+	padding-left: 60px;
+	padding-right: 30px;
 	background-image: url("../img/head.jpg");
 	background-size: cover;
 	background-attachment: fixed;
@@ -62,7 +63,7 @@ header {
 
 @media (min-width:2000px) {
 	header {
-		padding-left: 20vw;
+		padding-left: 25vw;
 	}
 }
 
@@ -86,13 +87,13 @@ header h2 {
 #bbox {
 	grid-area: section1;
 	background-color: #2D2D2B;
-	padding: 50px 0 50px 30px;
+	padding: 50px 30px 50px 60px;
 	box-shadow: 0 10px 10px rgba(0,0,0,0.03), 0 5px 8px rgba(0,0,0,0.23);
 }
 
 @media (min-width:2000px) {
 	#bbox {
-		padding-left: 20vw;
+		padding-left: 25vw;
 	}
 }
 
@@ -108,7 +109,7 @@ header h2 {
 main {
 	grid-area: main;
 	height: auto;
-	padding: 50px 30px 50px 30px;
+	padding: 50px 30px 50px 60px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
@@ -146,7 +147,7 @@ main p {
 	grid-area: section2;
 	background-color: #D6D6D6;
 	height: auto;
-	padding: 150px 30px 150px 30px;
+	padding: 150px 30px 150px 60px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 50px;
@@ -154,13 +155,13 @@ main p {
 
 @media (min-width:2000px) {
 	#brands {
-		padding: 50px 20vw 50px 20vw;
+		padding: 50px 20vw 50px 25vw;
 	}
 }
 
 .brand {
-	text-align: center;
-	margin: auto;
+	text-align: left;
+	margin: auto auto auto 0;
 }
 
 #brands img {
@@ -182,13 +183,13 @@ main p {
 #bbox1 {
 	grid-area: section3;
 	background-color: #2D2D2B;
-	padding: 50px 30px 50px 30px;
+	padding: 50px 30px 50px 60px;
 	box-shadow: 0 10px 10px rgba(0,0,0,0.03), 0 5px 8px rgba(0,0,0,0.23);
 }
 
 @media (min-width:2000px) {
 	#bbox1 {
-		padding: 50px 20vw 50px 20vw;
+		padding: 50px 20vw 50px 25vw;
 	}
 }
 
