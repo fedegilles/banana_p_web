@@ -68,14 +68,14 @@ header {
 @media (min-width:2000px) {
 	.video-container video {
 		width: 100%;
-	}
+}
 }
 
 @media (min-width:2000px) {
 	.hd-text {
 		padding-left: 0;
 		margin-left: 23vw;
-	}
+}
 }
 
 .hd-text {
@@ -120,7 +120,7 @@ header h2 {
 }
 
 .video-container video {
-	width: 100%;
+	height: 100%;
 }
 
 /*-----  -----*/
