@@ -265,7 +265,12 @@ main p {
 #staff div img {
 	height: 350px;
 	width: 300px;
-	background-color: #ccc;
+	filter: grayscale(90%);
+  	transition: .5s ease;
+}
+
+#staff div img:hover {
+  filter: grayscale(10%);
 }
 
 #staff div p {
