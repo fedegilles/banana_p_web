@@ -120,7 +120,7 @@ header h2 {
 }
 
 .video-container video {
-	height: 100%;
+	width: 100%;
 }
 
 /*-----  -----*/
@@ -265,12 +265,6 @@ main p {
 #staff div img {
 	height: 350px;
 	width: 300px;
-	filter: grayscale(90%);
-  	transition: .5s ease;
-}
-
-#staff div img:hover {
-  filter: grayscale(10%);
 }
 
 #staff div p {
