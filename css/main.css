@@ -121,7 +121,7 @@ header h2 {
 }
 
 .video-container video {
-	object-fit: fill;
+	object-fit: cover;
 }
 
 /*-----  -----*/
