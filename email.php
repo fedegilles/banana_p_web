@@ -5,7 +5,7 @@
 	$mail = $_POST[mail];
 	$mensaje = $_POST[message];
 
-	$contenido = "Nombre: " . $nombre . "\Asunto: " . $asunto . "\nMail: " . $mail . "\Mensaje: " . $mensaje;
+	$contenido = "Nombre: " . $nombre . "\nAsunto: " . $asunto . "\nMail: " . $mail . "\nMensaje: " . $mensaje;
 	
 	mail($destino,"Contacto", $contenido);
 
